@@ -1,9 +1,14 @@
 "use client";
 import { createContext, useContext, useState } from "react";
 
-const LanguageContext = createContext({
-  lang: "id",
-  setLang: (lang: "id" | "en") => {},
+type LanguageContextType = {
+  lang: "id" | "en";
+  setLang: (lang: "id" | "en") => void;
+};
+
+const LanguageContext = createContext<LanguageContextType>({
+  lang: "id", // nilai default awal
+  setLang: () => {}, // fungsi kosong sebagai default
 });
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
