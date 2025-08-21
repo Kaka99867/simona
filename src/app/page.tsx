@@ -55,6 +55,8 @@ export default function Home() {
         position: "relative",
         display: "flex",
         flexDirection: "column",
+        paddingTop: 80, // tambahkan padding agar konten tidak menutupi navbar
+        boxSizing: "border-box",
       }}
     >
       <Navbar />
@@ -65,7 +67,7 @@ export default function Home() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          paddingTop: 80, // agar tidak tertutup navbar
+          // paddingTop: 80, // hapus baris ini
         }}
       >
         <span
