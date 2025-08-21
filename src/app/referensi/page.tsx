@@ -1,4 +1,5 @@
 "use client";
+import "./styles.css";
 import Navbar from "../navbar";
 
 export default function Referensi() {
@@ -80,7 +81,16 @@ export default function Referensi() {
             </li>
             <br></br>
             <li>
-              Salma Mahmudah. (2025). Culture shock warga Blitar kondangan ke Boyolali, Jawa Tengah. Beda buanget budaya kondangan [https://www.instagram.com/reel/DLBo08Gxks_/?igsh=Nnc2N3Y1Y2VnNmM=]. Instagram.
+              Salma Mahmudah. (2025). Culture shock warga Blitar kondangan ke Boyolali, Jawa Tengah. Beda buanget budaya kondangan&nbsp;
+              <a
+                href="https://www.instagram.com/reel/DLBo08Gxks_/?igsh=Nnc2N3Y1Y2VnNmM="
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#2a6bbf", wordBreak: "break-all", textDecoration: "underline", overflowWrap: "anywhere" }}
+              >
+                https://www.instagram.com/reel/DLBo08Gxks_/?igsh=Nnc2N3Y1Y2VnNmM=
+              </a>
+              .
             </li>
           </ol>
         </div>
