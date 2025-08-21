@@ -1,0 +1,14 @@
+ol a {
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.1rem !important;
+    text-align: center;
+  }
+  ol {
+    font-size: 1rem !important;
+  }
+}
