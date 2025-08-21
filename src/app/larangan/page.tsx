@@ -126,24 +126,26 @@ export default function Larangan() {
                 }}
                 className={isVisible ? "image-enter" : ""}
               >
-                <img
-                  src={`/assets/${idx + 1}.png`}
-                  alt={`Larangan ${idx + 1}`}
-                  className="hover-image" // Add hover-image class here
-                  style={{
-                    width: "300px", // Mengatur ukuran gambar
-                    height: "auto",
-                    objectFit: "contain",
-                    marginRight: 35,
-                  }}
-                />
-                <span
-                  style={{
-                    fontSize: "1.25rem", // Menyesuaikan ukuran font
-                  }}
-                >
-                  {`${idx + 1}. ${item}`}
-                </span>
+                <div className="img-row">
+                  <img
+                    src={`/assets/${idx + 1}.png`}
+                    alt={`Larangan ${idx + 1}`}
+                    className="hover-image"
+                    style={{
+                      width: "300px",
+                      height: "auto",
+                      objectFit: "contain",
+                      marginRight: 35,
+                    }}
+                  />
+                  <p
+                    style={{
+                      fontSize: "1.25rem",
+                    }}
+                  >
+                    {`${idx + 1}. ${item}`}
+                  </p>
+                </div>
               </li>
             ))}
           </ol>
