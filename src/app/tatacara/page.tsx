@@ -1,7 +1,7 @@
 "use client";
 import Navbar from "../navbar";
 import { useLanguage } from "../bahasa";
-import './styles.css'; // Make sure to import your CSS file
+import './styles.css';
 
 const konten = {
   id: {
@@ -12,7 +12,7 @@ const konten = {
         <br />
         <ol>
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/syarat1.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -25,12 +25,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Tidak memiliki cacat fisik.
+              <p>Tidak memiliki cacat fisik.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/syarat2.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -43,12 +43,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Sehat jasmani dan rohani.
+              <p>Sehat jasmani dan rohani.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/syarat3.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -61,12 +61,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Berpenampilan rapi dan sopan.
+              <p>Berpenampilan rapi dan sopan.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/syarat4.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -79,12 +79,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Dalam penyajian kepada tamu, harus mengedepankan kesopanan dan tata krama.
+              <p>Dalam penyajian kepada tamu, harus mengedepankan kesopanan dan tata krama.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/syarat5.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -97,12 +97,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Wajib menaati tata aturan upacara yang telah ditetapkan oleh pembawa acara.
+              <p>Wajib menaati tata aturan upacara yang telah ditetapkan oleh pembawa acara.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/syarat6.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -115,7 +115,7 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Bersikap ramah dan berwajah sumringah (sumeh) kepada tamu.
+              <p>Bersikap ramah dan berwajah sumringah (sumeh) kepada tamu.</p>
             </div>
           </li>
         </ol>
@@ -145,7 +145,7 @@ const konten = {
         <br />
         <ol>
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu1.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -158,12 +158,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Penyajian dilakukan satu per satu, tidak sekaligus.
+              <p>Penyajian dilakukan satu per satu, tidak sekaligus.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu3.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -176,12 +176,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Ketika menyajikan makanan, tangan kanan memegang bagian tengah gelas, bukan bagian atasnya. Tangan kiri menopang siku kanan untuk menjaga kestabilan.
+              <p>Ketika menyajikan makanan, tangan kanan memegang bagian tengah gelas, bukan bagian atasnya. Tangan kiri menopang siku kanan untuk menjaga kestabilan.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu2.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -194,12 +194,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Saat gelas diletakkan di meja, jari kelingking tangan kanan menopang dasar gelas agar tidak berbunyi keras.
+              <p>Saat gelas diletakkan di meja, jari kelingking tangan kanan menopang dasar gelas agar tidak berbunyi keras.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu4.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -212,12 +212,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Dilarang menjatuhkan sendok, dan jika hal itu terjadi, sendok harus diganti dengan yang bersih.
+              <p>Dilarang menjatuhkan sendok, dan jika hal itu terjadi, sendok harus diganti dengan yang bersih.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu5.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -230,12 +230,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Ibu jari tidak boleh masuk ke dalam piring saat menyajikan makanan berat.
+              <p>Ibu jari tidak boleh masuk ke dalam piring saat menyajikan makanan berat.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu6.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -248,12 +248,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Sendok disajikan secara terbuka dan diletakkan langsung di dalam piring sebelah kanan, bukan disiapkan di depan tamu.
+              <p>Sendok disajikan secara terbuka dan diletakkan langsung di dalam piring sebelah kanan, bukan disiapkan di depan tamu.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu7.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -266,12 +266,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Sinoman dilarang berbicara atau bercanda saat proses penyajian berlangsung.
+              <p>Sinoman dilarang berbicara atau bercanda saat proses penyajian berlangsung.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu8.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -284,12 +284,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Setelah selesai menyajikan, sinoman berjalan kembali secara berurutan, dimulai dari pemuda pembawa baki, lalu diikuti oleh sinom putri.
+              <p>Setelah selesai menyajikan, sinoman berjalan kembali secara berurutan, dimulai dari pemuda pembawa baki, lalu diikuti oleh sinom putri.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu9.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -302,12 +302,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Ketika melewati tamu yang lebih tua, sinoman perlu sedikit membungkuk sebagai bentuk penghormatan.
+              <p>Ketika melewati tamu yang lebih tua, sinoman perlu sedikit membungkuk sebagai bentuk penghormatan.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/lesehan10.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -320,7 +320,7 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Apabila ada tamu yang meminta air putih alih-alih teh, pramusaji wanita tetap berada di tempat, dan berkomunikasi dengan sinoman putra atau pembawa baki untuk mengganti minuman sesuai permintaan.
+              <p>Apabila ada tamu yang meminta air putih alih-alih teh, pramusaji wanita tetap berada di tempat, dan berkomunikasi dengan sinoman putra atau pembawa baki untuk mengganti minuman sesuai permintaan.</p>
             </div>
           </li>
         </ol>
@@ -329,7 +329,7 @@ const konten = {
         <ol>
           <li>
             <br />
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/21.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -342,12 +342,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Penyajian dilakukan dalam posisi jongkok perlahan, dimulai dengan melangkahkan kaki kanan terlebih dahulu, lalu menempatkan kaki kanan di depan saat jongkok.
+              <p>Penyajian dilakukan dalam posisi jongkok perlahan, dimulai dengan melangkahkan kaki kanan terlebih dahulu, lalu menempatkan kaki kanan di depan saat jongkok.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/22.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -360,12 +360,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Saat berjalan jongkok, posisi kaki dibuat agak melebar dan bergerak perlahan agar tetap sopan dan tidak terburu-buru.
+              <p>Saat berjalan jongkok, posisi kaki dibuat agak melebar dan bergerak perlahan agar tetap sopan dan tidak terburu-buru.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/23.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -378,12 +378,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Saat berhenti untuk membagikan, posisi badan berubah dari jongkok ke duduk bersila (kaki kiri dilipat), kemudian makanan diletakkan di depan tubuh.
+              <p>Saat berhenti untuk membagikan, posisi badan berubah dari jongkok ke duduk bersila (kaki kiri dilipat), kemudian makanan diletakkan di depan tubuh.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/24.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -396,12 +396,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Minuman disajikan kepada tamu dengan urutan: dari yang tertua hingga yang termuda, dan pembagiannya dilakukan dari dua sisi lingkaran (5 dari kanan dan 5 dari kiri) secara seimbang.
+              <p>Minuman disajikan kepada tamu dengan urutan: dari yang tertua hingga yang termuda, dan pembagiannya dilakukan dari dua sisi lingkaran (5 dari kanan dan 5 dari kiri) secara seimbang.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/25.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -414,12 +414,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Gelas diletakkan dari sisi samping, tidak langsung dari tengah lingkaran.
+              <p>Gelas diletakkan dari sisi samping, tidak langsung dari tengah lingkaran.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/26.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -432,12 +432,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Ketika kembali ke tempat semula, baki diambil dari depan tubuh, lalu diselipkan di sisi ketiak kanan tanpa menurunkannya secara penuh. Sinoman kemudian berjalan mundur secara jongkok agar tidak membelakangi tamu.
+              <p>Ketika kembali ke tempat semula, baki diambil dari depan tubuh, lalu diselipkan di sisi ketiak kanan tanpa menurunkannya secara penuh. Sinoman kemudian berjalan mundur secara jongkok agar tidak membelakangi tamu.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/27.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -450,12 +450,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Tatanan gelas dalam baki dibuat membentuk segitiga, sisi kanan untuk tamu di sebelah kanan, dan sebaliknya.
+              <p>Tatanan gelas dalam baki dibuat membentuk segitiga, sisi kanan untuk tamu di sebelah kanan, dan sebaliknya.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/28.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -468,12 +468,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Saat menyuguhkan, kaki harus timpuh, tidak boleh berdiri atau jongkok secara frontal.
+              <p>Saat menyuguhkan, kaki harus timpuh, tidak boleh berdiri atau jongkok secara frontal.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/29.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -486,7 +486,7 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Hidangan tidak boleh disajikan secara ranting (berpindah dari tamu satu ke tamu lainnya). Namun, jika tradisi ranting digunakan, hal ini disesuaikan dengan adat setempat.
+              <p>Hidangan tidak boleh disajikan secara ranting (berpindah dari tamu satu ke tamu lainnya). Namun, jika tradisi ranting digunakan, hal ini disesuaikan dengan adat setempat.</p>
             </div>
           </li>
         </ol>
@@ -504,112 +504,111 @@ const konten = {
       <>
         <h2>A. Eligibility and Ethics to be a Sinoman</h2>
         <ol>
-          <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
-                src="/assets/syarat1.jpg" // Ganti dengan path gambar Anda
+                src="/assets/syarat1.jpg"
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
-                width: "300px",
-                height: "460px",
-                marginRight: "50px",
-                objectFit: "cover",
-                borderRadius: "4px"
-              }}
+                  width: "300px",
+                  height: "460px",
+                  marginRight: "50px",
+                  objectFit: "cover",
+                  borderRadius: "4px"
+                }}
               />
-              Have no physical disability.
+              <p>Have no physical disability.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
-                src="/assets/syarat2.jpg" // Ganti dengan path gambar Anda
+                src="/assets/syarat2.jpg"
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
-                width: "300px",
-                height: "460px",
-                marginRight: "50px",
-                objectFit: "cover",
-                borderRadius: "4px"
-              }}
+                  width: "300px",
+                  height: "460px",
+                  marginRight: "50px",
+                  objectFit: "cover",
+                  borderRadius: "4px"
+                }}
               />
-              Physically and mentally healthy.
+              <p>Physically and mentally healthy.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
-                src="/assets/syarat3.jpg" // Ganti dengan path gambar Anda
+                src="/assets/syarat3.jpg"
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
-                width: "300px",
-                height: "460px",
-                marginRight: "50px",
-                objectFit: "cover",
-                borderRadius: "4px"
-              }}
+                  width: "300px",
+                  height: "460px",
+                  marginRight: "50px",
+                  objectFit: "cover",
+                  borderRadius: "4px"
+                }}
               />
-              Be well-groomed and polite.
+              <p>Be well-groomed and polite.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
-                src="/assets/syarat4.jpg" // Ganti dengan path gambar Anda
+                src="/assets/syarat4.jpg"
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
-                width: "360px",
-                height: "460px",
-                marginRight: "50px",
-                objectFit: "cover",
-                borderRadius: "4px"
-              }}
+                  width: "360px",
+                  height: "460px",
+                  marginRight: "50px",
+                  objectFit: "cover",
+                  borderRadius: "4px"
+                }}
               />
-              In presenting to guests, one must prioritize politeness and manners.
+              <p>In presenting to guests, one must prioritize politeness and manners.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
-                src="/assets/syarat5.jpg" // Ganti dengan path gambar Anda
+                src="/assets/syarat5.jpg"
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
-                width: "360px",
-                height: "460px",
-                marginRight: "50px",
-                objectFit: "cover",
-                borderRadius: "4px"
-              }}
+                  width: "360px",
+                  height: "460px",
+                  marginRight: "50px",
+                  objectFit: "cover",
+                  borderRadius: "4px"
+                }}
               />
-              Must obey the rules of the ceremony that have been set by the host.
+              <p>Must obey the rules of the ceremony that have been set by the host.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
-                src="/assets/syarat6.jpg" // Ganti dengan path gambar Anda
+                src="/assets/syarat6.jpg"
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
-                width: "310px",
-                height: "460px",
-                marginRight: "50px",
-                objectFit: "cover",
-                borderRadius: "4px"
-              }}
+                  width: "310px",
+                  height: "460px",
+                  marginRight: "50px",
+                  objectFit: "cover",
+                  borderRadius: "4px"
+                }}
               />
-              Be friendly and have a smiling face (sumeh) to the guests.
+              <p>Be friendly and have a smiling face (sumeh) to the guests.</p>
             </div>
           </li>
         </ol>
@@ -639,25 +638,25 @@ const konten = {
         <br />
         <ol>
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu1.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
                 className="hover-image"
                 style={{
                 width: "300px",
-                height: "500px",
+                height: "460px",
                 marginRight: "50px",
                 objectFit: "cover",
                 borderRadius: "4px"
               }}
               />
-              Serving is done one at a time, not all at once.
+              <p>Serving is done one at a time, not all at once.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu2.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -670,12 +669,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When serving food, the right hand holds the center of the glass, not the top. The left hand supports the right elbow for stability.
+              <p>When serving food, the right hand holds the center of the glass, not the top. The left hand supports the right elbow for stability.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu3.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -688,12 +687,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When the glass is placed on the table, the little finger of the right hand supports the bottom of the glass so that it does not make a loud noise.
+              <p>When the glass is placed on the table, the little finger of the right hand supports the bottom of the glass so that it does not make a loud noise.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu4.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -706,12 +705,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              It is forbidden to drop the spoon, and if it happens, the spoon should be replaced with a clean one.
+              <p>It is forbidden to drop the spoon, and if it happens, the spoon should be replaced with a clean one.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu5.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -724,12 +723,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              The thumb should not enter the plate when serving heavy food.
+              <p>The thumb should not enter the plate when serving heavy food.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu6.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -742,12 +741,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              The spoon is served openly and placed directly on the right-hand plate, not in front of the guest.
+              <p>The spoon is served openly and placed directly on the right-hand plate, not in front of the guest.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu7.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -760,12 +759,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Sinoman are prohibited from talking or joking during the serving process.
+              <p>Sinoman are prohibited from talking or joking during the serving process.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu8.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -778,12 +777,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              After finishing serving, the sinomans walk back in order, starting with the young man carrying the tray, followed by the female sinomans.
+              <p>After finishing serving, the sinomans walk back in order, starting with the young man carrying the tray, followed by the female sinomans.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/tamu9.jpg" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -796,12 +795,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When passing older guests, sinoman should bow slightly as a form of respect.
+              <p>When passing older guests, sinoman should bow slightly as a form of respect.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/lesehan10.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -814,7 +813,7 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              If a guest requests water instead of tea, the female waitress remains in place and communicates with the sinoman putra or tray bearer to change the drink as requested.
+              <p>If a guest requests water instead of tea, the female waitress remains in place and communicates with the sinoman putra or tray bearer to change the drink as requested.</p>
             </div>
           </li>
         </ol>
@@ -823,7 +822,7 @@ const konten = {
         <ol>
           <li>
             <br />
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/21.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -836,12 +835,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              The presentation is done in a slow squatting position, starting with stepping the right foot first, then placing the right foot in front when squatting.
+              <p>The presentation is done in a slow squatting position, starting with stepping the right foot first, then placing the right foot in front when squatting.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/22.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -854,12 +853,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When walking in a squat, the feet are slightly spread apart and move slowly to remain polite and not in a hurry.
+              <p>When walking in a squat, the feet are slightly spread apart and move slowly to remain polite and not in a hurry.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/23.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -872,12 +871,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When stopping to distribute, the body position changes from squatting to sitting cross-legged (left leg folded), then the food is placed in front of the body.
+              <p>When stopping to distribute, the body position changes from squatting to sitting cross-legged (left leg folded), then the food is placed in front of the body.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/24.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -890,12 +889,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Drinks are served to guests in order: from the oldest to the youngest, and the distribution is done from two sides of the circle (5 from the right and 5 from the left) equally.
+              <p>Drinks are served to guests in order: from the oldest to the youngest, and the distribution is done from two sides of the circle (5 from the right and 5 from the left) equally.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/25.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -908,12 +907,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Glasses are placed from the side, not directly from the center of the circle.
+              <p>Glasses are placed from the side, not directly from the center of the circle.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/26.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -926,12 +925,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When returning to the original place, the tray is taken from the front of the body, then tucked into the side of the right armpit without lowering it completely. Sinoman then walks backwards in a squat manner so as not to turn their backs on the guests.
+              <p>When returning to the original place, the tray is taken from the front of the body, then tucked into the side of the right armpit without lowering it completely. Sinoman then walks backwards in a squat manner so as not to turn their backs on the guests.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/27.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -944,12 +943,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              The order of the glasses in the tray is made into a triangle, the right side for the guest on the right, and vice versa.
+              <p>The order of the glasses in the tray is made into a triangle, the right side for the guest on the right, and vice versa.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/28.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -962,12 +961,12 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              When serving, the feet should be on the ground, not standing or squatting frontally.
+              <p>When serving, the feet should be on the ground, not standing or squatting frontally.</p>
             </div>
           </li>
           <br />
           <li>
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <div className="img-row">
               <img
                 src="/assets/29.png" // Ganti dengan path gambar Anda
                 alt="Cacat fisik"
@@ -980,7 +979,7 @@ const konten = {
                 borderRadius: "4px"
               }}
               />
-              Dishes should not be served ranting (moving from one guest to another). However, if the ranting tradition is used, this is adjusted according to local custom.
+              <p>Dishes should not be served ranting (moving from one guest to another). However, if the ranting tradition is used, this is adjusted according to local custom.</p>
             </div>
           </li>
         </ol>
@@ -995,7 +994,7 @@ const konten = {
   },
 };
 
-export default function Kesimpulan() {
+export default function Tatacara() {
   const { lang } = useLanguage();
 
   return (
